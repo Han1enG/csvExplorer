@@ -1,9 +1,11 @@
-import Table from './pages/Table';
+import CSVConverter from 'lib/components/CSVSelector';
+// import Table from './pages/Table';
 
 const App = () => {
   return (
     <div className='h-full w-full'>
-      <Table />
+      <CSVConverter />
+      {/* <Table /> */}
     </div>
   );
 };
